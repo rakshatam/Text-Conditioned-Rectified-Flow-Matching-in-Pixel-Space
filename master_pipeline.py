@@ -558,9 +558,9 @@ def run_training():
     # paired with <name>.pt embedding tensors of shape [512].
     dataset_path = os.environ.get("RFM_DATA_DIR")
     if not dataset_path:
-        dataset_path = "/kaggle/input/models/qwertywell/anime-faces/pytorch/default/1"
+        dataset_path = "your dataset path"
     if not os.path.exists(dataset_path):
-        dataset_path = "/kaggle/working/anime_data_with_embeddings"
+        dataset_path = "your dataset path"
 
     dataset    = ImageDataset(dataset_path, transform=transform)
     dataloader = DataLoader(dataset, batch_size=32, shuffle=True,
