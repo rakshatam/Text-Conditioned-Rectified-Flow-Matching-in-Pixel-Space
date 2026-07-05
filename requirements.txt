@@ -1,0 +1,7 @@
+torch>=2.1
+torchvision>=0.16
+accelerate>=0.25
+transformers>=4.30
+tqdm>=4.65
+Pillow>=9.0
+matplotlib>=3.7
