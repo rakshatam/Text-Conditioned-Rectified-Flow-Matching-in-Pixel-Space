@@ -221,9 +221,11 @@ the `enhanced_prompts` list, along with a sequence of images produced by
 linearly interpolating between two text embeddings while holding the
 starting noise fixed. Output images are saved as PNG files in the working
 directory.
-Text to image generation sample with each generation with different seed
+## Text to image generation sample with each generation with different seed
+
 <img width="2212" height="1491" alt="enhanced_gallery" src="https://github.com/user-attachments/assets/0431a290-bbcc-4d7c-946b-41805e07149a" />
-interpolation of the change (alpha) in images as text prompt "a girl with purple hair and orange eyes" -> "a girl with blue hair and green eyes" 
+## interpolation of the change (alpha) in images as text prompt "a girl with purple hair and orange eyes" -> "a girl with blue hair and green eyes" 
+
 <img width="3135" height="481" alt="interpolation_test" src="https://github.com/user-attachments/assets/2590db77-638e-4671-91ec-630ca1673c2c" />
 
 ## References
