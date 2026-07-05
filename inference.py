@@ -255,7 +255,7 @@ model = FlowMatchingUNet().to(DEVICE)
 # back to the Kaggle path this project was originally trained against.
 ckpt_path = os.environ.get(
     "RFM_CKPT_PATH",
-    "/kaggle/input/models/qwertywell/model/pytorch/default/1/rfm_unet_ema_checkpoint (4).pt",
+    "your model path",
 )
 
 if os.path.exists(ckpt_path):
