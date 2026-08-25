@@ -164,10 +164,8 @@ observed behavior.
 - Resolution is fixed at 64x64 pixels, which constrains the level of fine
   detail achievable in generated images. This was a deliberate choice given
   the available computational budget.
-- No quantitative evaluation metric, such as FID, was computed against a
-  held-out reference set. Evaluation relies on the conditioning probe
-  described above and manual inspection of samples generated from held-out
-  prompts.
+- quantitative evaluation metric, such as FID, was computed with 10000 image generation via the InceptionV3 model with     varied text prompts but text prompts large diversity couldn't be achieved due to dataset limitations and how Auto        captioning models captions models. 
+  
 
 ## Repository Structure
 
