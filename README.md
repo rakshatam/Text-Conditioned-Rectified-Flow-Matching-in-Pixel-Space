@@ -7,7 +7,7 @@ starting from Gaussian noise, without an intermediate compressed
 representation. All parameters are randomly initialized prior to training;
 no pretrained components are used. Training was performed on two NVIDIA T4
 GPUs (Kaggle) using a dataset of approximately 21,551 anime-style face
-images paired with text embeddings.
+images paired with text embeddings achieving FID score of 10-12 depending on the CFG scale of 5 to 2.5
 
 ## Overview
 
